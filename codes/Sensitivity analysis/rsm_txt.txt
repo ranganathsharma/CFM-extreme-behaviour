@@ -1,0 +1,139 @@
+This file has the results of rsm for different models. 
+
+The coefficients of the polynomial are ordered in the following fashion. 
+
+y = c1 x1 + c2 x2 + c3 x3 + c4 x1^2 + c5 x1 x2 + c6 x1 x3 + c7 x2^2 + c8 x2 x3 + c9 x3^2
+
+
+=================================================================================================
+Analysing the model idm
+=================================================================================================
+Analysing the surface formed by the MOD vkt
+For vkt as the model output
+
+For model idm:
+The variables are in the following order
+safe_head
+des_vel
+max_acc
+
+Coefficients: [    0.    7983.24 -2092.06  -163.24  5013.77 -1581.11  -341.09  2138.15
+   586.13  1451.61]
+Intercept: 5980.478496986094
+
+R-squared: 0.8744870383916998
+
+For vel as the model output
+For model idm:
+The variables are in the following order
+safe_head
+des_vel
+max_acc
+
+Coefficients: [ 0.    0.09  0.59 -0.76  2.14 -1.29  1.13  0.02 -0.6   0.73]
+Intercept: 8.07980770357146
+
+R-squared: 0.550922140787629
+
+=================================================================================================
+Analysing the surface formed by the MOD vel
+For vkt as the model output
+
+For model idm:
+The variables are in the following order
+safe_head
+des_dec
+jam_dis_0
+
+Coefficients: [   0.   8586.87  976.96  728.82 3776.57 -378.35 -864.99  207.8   751.75
+  358.97]
+Intercept: 6421.027321016156
+
+R-squared: 0.9667835761703033
+
+For vel as the model output
+For model idm:
+The variables are in the following order
+safe_head
+des_dec
+jam_dis_0
+
+Coefficients: [ 0.   -1.25  0.7   0.35  2.56 -0.12 -0.66 -0.21  0.26  0.3 ]
+Intercept: 9.439507328309224
+
+R-squared: 0.6807096777165669
+
+=================================================================================================
+Analysing the model bando
+=================================================================================================
+
+{'max_vel': 39.621580959438276, 'ds': 12.986374861191969, 'beta': 1.3056727647062443, 'tau': 0.65, 'len_veh': 3} Input Error: The input parameter values leads to model crash
+{'max_vel': 38.92874145532105, 'ds': 12.174455482080507, 'beta': 1.2165824715829407, 'tau': 0.65, 'len_veh': 3} Input Error: The input parameter values leads to model crash
+{'max_vel': 38.94353061822602, 'ds': 14.044222705481882, 'beta': 1.2612169377883216, 'tau': 0.65, 'len_veh': 3} Input Error: The input parameter values leads to model crash
+{'max_vel': 39.668243723016495, 'ds': 12.748413283367444, 'beta': 1.405426962088273, 'tau': 0.65, 'len_veh': 3} Input Error: The input parameter values leads to model crash
+{'max_vel': 33.6142301339339, 'ds': 12.212295334778418, 'beta': 1.225340074071121, 'tau': 0.65, 'len_veh': 3} Input Error: The input parameter values leads to model crash
+{'max_vel': 38.25176318200796, 'ds': 12.2802178318887, 'beta': 1.2835685375669816, 'tau': 0.65, 'len_veh': 3} Input Error: The input parameter values leads to model crash
+{'max_vel': 29.49913124384533, 'ds': 12.346930588972029, 'beta': 1.2200659479617584, 'tau': 0.65, 'len_veh': 3} Input Error: The input parameter values leads to model crash
+{'max_vel': 38.726118993422126, 'ds': 12.634781656055445, 'beta': 1.3594033036879254, 'tau': 0.65, 'len_veh': 3} Input Error: The input parameter values leads to model crash
+{'max_vel': 30.69988353323555, 'ds': 12.089037443855458, 'beta': 1.221978865531981, 'tau': 0.65, 'len_veh': 3} Input Error: The input parameter values leads to model crash
+{'max_vel': 30.69905763038428, 'ds': 12.294939634420201, 'beta': 1.2305746090691525, 'tau': 0.65, 'len_veh': 3} Input Error: The input parameter values leads to model crash
+{'max_vel': 37.97346936350907, 'ds': 13.017640359031267, 'beta': 1.2588426553644987, 'tau': 0.65, 'len_veh': 3} Input Error: The input parameter values leads to model crash
+
+Analysing the surface formed by the MOD vkt
+For vkt as the model output
+
+For model bando:
+The variables are in the following order
+max_vel
+ds
+beta
+
+Coefficients: [    0.   -7014.53  2060.32  1601.97  7152.11 -3585.48 -2149.33   828.01
+  1400.82   168.03]
+Intercept: 3632.1529443593763
+
+R-squared: 0.9568301606962331
+
+For vel as the model output
+For model bando:
+The variables are in the following order
+max_vel
+ds
+beta
+
+Coefficients: [ 0.    0.12 -0.42 -0.03  2.01 -1.91 -0.58  0.45  0.16  0.09]
+Intercept: 11.383833035242171
+
+R-squared: 0.3566743390484928
+
+=================================================================================================
+Analysing the model newell
+=================================================================================================
+Analysing the surface formed by the MOD vkt
+For vkt as the model output
+
+For model newell:
+The variables are in the following order
+max_vel
+sens
+jam_dis
+
+Coefficients: [   0.   2609.83 1931.51 -132.31  804.93 3233.01 -458.3   597.54 -220.95
+  123.94]
+Intercept: 4027.4287970162113
+
+R-squared: 0.8248861110831944
+
+For vel as the model output
+For model newell:
+The variables are in the following order
+max_vel
+sens
+jam_dis
+
+Coefficients: [ 0.    1.75  0.3   0.04 -0.06  0.75 -0.1   0.22  0.03  0.01]
+Intercept: 2.5678778805047817
+
+R-squared: 0.9076648529339502
+
+=================================================================================================

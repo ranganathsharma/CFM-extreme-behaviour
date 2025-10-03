@@ -1,0 +1,35 @@
+This file has the results of the nominal range sensitivity analysis. The mean and variance are tabulated
+
+
+The model is idm
+
+velocity acc_exp mean 4.98 variance 3.35
+vkt acc_exp mean 0.75 variance 0.89
+velocity des_dec mean 8.78 variance 5.07
+vkt des_dec mean 1.6 variance 0.82
+velocity des_vel mean 5.13 variance 5.39
+vkt des_vel mean 1.91 variance 7.41
+velocity jam_dis_0 mean 6.99 variance 9.27
+vkt jam_dis_0 mean 1.04 variance 0.48
+velocity max_acc mean 6.9 variance 5.57
+vkt max_acc mean 1.67 variance 8.02
+velocity safe_head mean 9.41 variance 6.53
+vkt safe_head mean 7.1 variance 35.18
+
+The model is newell
+
+velocity jam_dis mean 0.0 variance 0.0
+vkt jam_dis mean 0.56 variance 0.12
+velocity max_vel mean 2.73 variance 1.6
+vkt max_vel mean 4.96 variance 5.32
+velocity sens mean 0.79 variance 0.22
+vkt sens mean 1.98 variance 1.92
+
+The model is bando
+
+velocity beta mean 7.85 variance 10.25
+vkt beta mean 1.9 variance 1.21
+velocity ds mean 11.11 variance 10.85
+vkt ds mean 2.18 variance 1.6
+velocity max_vel mean 12.38 variance 2.76
+vkt max_vel mean 6.34 variance 32.93

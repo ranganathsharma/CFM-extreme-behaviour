@@ -1,0 +1,20 @@
+# This file has the outputs of the file jerk_1.py
+
+The number of vehicles is  2000
+The time step value is  0.1
+For idm, the percentage of values with acceleration more than 3 is 0.000
+For idm, the percentage of values with jerk more than 3 is 0.000
+The proportion of 1 second windows with more than one jerk inversion is 7166, 7200, 1.00
+The proportion of 1 second windows for individual vehicle with more than one jerk inversion is 21, 14394799, 0.00
+The number of vehicles is  2000
+The time step value is  0.1
+For newell, the percentage of values with acceleration more than 3 is 0.000
+For newell, the percentage of values with jerk more than 3 is 0.000
+The proportion of 1 second windows with more than one jerk inversion is 1019, 7200, 0.14
+The proportion of 1 second windows for individual vehicle with more than one jerk inversion is 19, 14394799, 0.00
+The number of vehicles is  2000
+The time step value is  0.1
+For bando, the percentage of values with acceleration more than 3 is 0.099
+For bando, the percentage of values with jerk more than 3 is 0.108
+The proportion of 1 second windows with more than one jerk inversion is 7107, 7200, 0.99
+The proportion of 1 second windows for individual vehicle with more than one jerk inversion is 279, 14394799, 0.00

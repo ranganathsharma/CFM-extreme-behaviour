@@ -1,0 +1,352 @@
+Newell
+
+For velocity class 1, acceleration stats are, 
+The mean is 0.0033528734674403804
+The median is 0.0014793891905284795
+The quartiles are 0.0 and 0.005108770473820634
+1 percentile value is -4.784321087451336e-12
+99 percentile value is 0.025352758966468783
+
+For velocity class 1, jerk stats are, 
+The mean is 5.103555863114248e-07
+The median is -5.588422169466867e-07
+The quartiles are -4.152268973101059e-06 and 0.0
+1 percentile value is -9.204801008078078e-05
+99 percentile value is 0.0001265520847198993
+
+For velocity class 2, acceleration stats are, 
+The mean is 0.0027182675824585275
+The median is 0.0
+The quartiles are 0.0 and 0.00724656604601609
+1 percentile value is -0.056158360146643105
+99 percentile value is 0.0615779001187978
+
+For velocity class 2, jerk stats are, 
+The mean is 2.358966089789603e-06
+The median is 0.0
+The quartiles are -9.568642174902672e-11 and 0.0
+1 percentile value is -0.0038435439099928637
+99 percentile value is 0.0038982086931187454
+
+For velocity class 3, acceleration stats are, 
+The mean is 0.002876373778174125
+The median is 0.0
+The quartiles are 0.0 and 0.007658692573586645
+1 percentile value is -0.061511366150135416
+99 percentile value is 0.05717680422445248
+
+For velocity class 3, jerk stats are, 
+The mean is 1.9582585228000544e-06
+The median is 0.0
+The quartiles are -9.409484147404612e-06 and 0.0
+1 percentile value is -0.004304853277711018
+99 percentile value is 0.00397371248275167
+
+Bando
+
+For velocity class 1, acceleration stats are, 
+The mean is 0.0037990384654887632
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -7.376971317133559
+99 percentile value is 7.389278145136865
+
+For velocity class 1, jerk stats are, 
+The mean is -6.544712075504826e-07
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -3.5870225222230445
+99 percentile value is 3.611368566933417
+
+For velocity class 2, acceleration stats are, 
+The mean is 0.0025223573503082753
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -2.105042455496413
+99 percentile value is 2.2901607506929684
+
+For velocity class 2, jerk stats are, 
+The mean is -6.216163675917966e-07
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -1.3206310509563934
+99 percentile value is 1.2651329833592424
+
+For velocity class 3, acceleration stats are, 
+The mean is 0.0034082955598567985
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -3.267099926900654
+99 percentile value is 3.4756306721087604
+
+For velocity class 3, jerk stats are, 
+The mean is 3.428003573734288e-07
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -1.872028927173865
+99 percentile value is 1.8408551619066718
+
+Helbing
+
+For velocity class 1, acceleration stats are, 
+The mean is 0.003243536101976357
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -1.7123413008413024e-05
+99 percentile value is 0.0007266053675470738
+
+For velocity class 1, jerk stats are, 
+The mean is 1.2486334456875117e-06
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -8.15800284215129e-06
+99 percentile value is 4.416770376426078e-07
+
+For velocity class 2, acceleration stats are, 
+The mean is 0.0022368642610033846
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -0.9012676158660936
+99 percentile value is 1.024584639155083
+
+For velocity class 2, jerk stats are, 
+The mean is 1.9769528217390644e-06
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -0.5023784956878217
+99 percentile value is 0.554500666181296
+
+For velocity class 3, acceleration stats are, 
+The mean is 0.0023753091193969423
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -1.29502066702599
+99 percentile value is 1.4023596614787337
+
+For velocity class 3, jerk stats are, 
+The mean is 2.2412292694250763e-06
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -0.6413692251614709
+99 percentile value is 0.7163184042855709
+
+GFM
+
+For velocity class 1, acceleration stats are, 
+The mean is 0.0037685805363085276
+The median is 8.145857486885484e-17
+The quartiles are -3.724406520053697e-18 and 0.0022829716372152475
+1 percentile value is -0.0021183698812771825
+99 percentile value is 0.06531162084066489
+
+For velocity class 1, jerk stats are, 
+The mean is 4.600678891063218e-07
+The median is -1.1832605237318116e-17
+The quartiles are -2.5655546131986284e-06 and 4.834856715641158e-17
+1 percentile value is -0.0019244931880812999
+99 percentile value is 0.0026011403092320966
+
+For velocity class 2, acceleration stats are, 
+The mean is 0.00275122469005356
+The median is 0.0
+The quartiles are -3.4012001678650617e-17 and 8.912024359375142e-17
+1 percentile value is -0.15728929582090645
+99 percentile value is 0.1934198171421837
+
+For velocity class 2, jerk stats are, 
+The mean is 1.6179379033634343e-06
+The median is 0.0
+The quartiles are -1.3816392242757344e-16 and 1.2280944041955352e-15
+1 percentile value is -0.013441885296380462
+99 percentile value is 0.01531660520915074
+
+For velocity class 3, acceleration stats are, 
+The mean is 0.0029972956183435847
+The median is 0.0
+The quartiles are -4.143578130988392e-17 and 9.358447818318097e-17
+1 percentile value is -0.15143665963934794
+99 percentile value is 0.1963260232739561
+
+For velocity class 3, jerk stats are, 
+The mean is 2.258153186157654e-06
+The median is 0.0
+The quartiles are -1.274488866332903e-15 and 1.3385999755895608e-15
+1 percentile value is -0.010973583625685457
+99 percentile value is 0.015216459324944783
+
+FVDM
+
+For velocity class 1, acceleration stats are, 
+The mean is 0.005172122214604364
+The median is 0.0
+The quartiles are 0.0 and 2.7104796584964674e-05
+1 percentile value is -6.33506348846069e-05
+99 percentile value is 0.0053533910054210454
+
+For velocity class 1, jerk stats are, 
+The mean is 3.86969591630602e-08
+The median is 0.0
+The quartiles are -8.492762049172597e-09 and 0.0
+1 percentile value is -5.503507113147065e-05
+99 percentile value is 3.5234539144113294e-05
+
+For velocity class 2, acceleration stats are, 
+The mean is 0.003631855554258821
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -1.3411319357481601
+99 percentile value is 1.4642793842254018
+
+For velocity class 2, jerk stats are, 
+The mean is 3.611323053584395e-06
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -0.49840753653102254
+99 percentile value is 0.5189864831528015
+
+For velocity class 3, acceleration stats are, 
+The mean is 0.00393118130028755
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -1.788961836286056
+99 percentile value is 1.8547756223128609
+
+For velocity class 3, jerk stats are, 
+The mean is 2.9102110143574683e-06
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -0.5937935633676332
+99 percentile value is 0.5931947263233001
+
+IDM
+
+For velocity class 1, acceleration stats are, 
+The mean is 0.0035439493290338312
+The median is 0.0
+The quartiles are 0.0 and 0.001917638718054171
+1 percentile value is 0.0
+99 percentile value is 0.06723515629170254
+
+For velocity class 1, jerk stats are, 
+The mean is 1.1076712225428143e-06
+The median is 0.0
+The quartiles are -1.8114866939811236e-06 and 0.0
+1 percentile value is -0.0008418548093924727
+99 percentile value is 0.0008700050798410285
+
+For velocity class 2, acceleration stats are, 
+The mean is 0.0026158601654129765
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -0.5675512343878582
+99 percentile value is 0.30316342307065497
+
+For velocity class 2, jerk stats are, 
+The mean is 2.391962654302501e-06
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -0.07217539940847839
+99 percentile value is 0.08476879628633456
+
+For velocity class 3, acceleration stats are, 
+The mean is 0.0027844304949448014
+The median is 0.0
+The quartiles are 0.0 and 1.431468588108943e-10
+1 percentile value is -0.6229265763538727
+99 percentile value is 0.3006096983162898
+
+For velocity class 3, jerk stats are, 
+The mean is 1.9603231473387656e-06
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -0.06631276435703981
+99 percentile value is 0.08435628431204706
+
+Shamoto
+
+For velocity class 1, acceleration stats are, 
+The mean is 0.0034699670873075783
+The median is 2.3305801732931286e-11
+The quartiles are 0.0 and 0.000276089116817424
+1 percentile value is -1.2821596655498978e-07
+99 percentile value is 0.14281310349274887
+
+For velocity class 1, jerk stats are, 
+The mean is -0.00022576701136943088
+The median is -3.552713678800501e-13
+The quartiles are -1.6128840485407636e-07 and 0.0
+1 percentile value is -0.00501219087727156
+99 percentile value is 3.473252862207213e-05
+
+For velocity class 2, acceleration stats are, 
+The mean is 0.0037510808747516907
+The median is 0.0
+The quartiles are 0.0 and 2.2201268601307333e-11
+1 percentile value is -0.598993709662702
+99 percentile value is 0.24642938000736672
+
+For velocity class 2, jerk stats are, 
+The mean is -0.000491168225591626
+The median is 0.0
+The quartiles are -2.1940782524154656e-11 and 0.0
+1 percentile value is -0.016848118157465564
+99 percentile value is 0.11675001661175939
+
+For velocity class 3, acceleration stats are, 
+The mean is 0.004001567710908102
+The median is 0.0
+The quartiles are 0.0 and 0.001980596684791891
+1 percentile value is -0.7216114637047966
+99 percentile value is 0.24978664638461545
+
+For velocity class 3, jerk stats are, 
+The mean is -0.0004028626333338493
+The median is 0.0
+The quartiles are -3.657950431446011e-06 and 0.0
+1 percentile value is -0.024405560331157258
+99 percentile value is 0.13607368667112812
+
+TSH
+
+For velocity class 1, acceleration stats are, 
+The mean is 0.00215331728696997
+The median is 0.0
+The quartiles are 0.0 and 3.740341369962152e-12
+1 percentile value is -2.651336464336574
+99 percentile value is 0.8773567990326867
+
+For velocity class 1, jerk stats are, 
+The mean is -0.0001198552132986548
+The median is 0.0
+The quartiles are 0.0 and 1.73749903353837e-12
+1 percentile value is -0.5571671643945564
+99 percentile value is 0.4570824623838792
+
+For velocity class 2, acceleration stats are, 
+The mean is 0.0017139102120821534
+The median is 0.0
+The quartiles are 0.0 and 2.7200464103316335e-14
+1 percentile value is -0.7534813147834809
+99 percentile value is 0.46655919206336055
+
+For velocity class 2, jerk stats are, 
+The mean is -0.00021478441533426804
+The median is 0.0
+The quartiles are 0.0 and 0.0
+1 percentile value is -0.11159676841127619
+99 percentile value is 0.10284393001819465
+
+For velocity class 3, acceleration stats are, 
+The mean is 0.0019695633827755917
+The median is 0.0
+The quartiles are 0.0 and 3.275157922644212e-13
+1 percentile value is -1.049529559983875
+99 percentile value is 0.47937837750016143
+
+For velocity class 3, jerk stats are, 
+The mean is -0.00017440155816113057
+The median is 0.0
+The quartiles are 0.0 and 5.551115123125783e-14
+1 percentile value is -0.1906004103769989
+99 percentile value is 0.16110108244796909
+

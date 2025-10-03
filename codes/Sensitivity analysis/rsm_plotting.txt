@@ -1,0 +1,37 @@
+The viewing angles for each plot is as follows:
+
+IDM - vkt
+
+plotting(0, 10, 78)
+plotting(1, 5, -144)
+plotting(2, 7, -37)
+
+Bando - VKT
+
+plotting(0, 4, -154)
+plotting(1, 3, 64)
+plotting(2, 3, 141)
+
+Newell - VKT
+
+plotting(0, 5, 140)
+plotting(1, 3, 103)
+plotting(2, 4, -160)
+
+Newell - vel
+
+plotting(0, 5, 111)
+plotting(1, 2, 116)
+plotting(2, 6, -15)
+
+Bando - vel
+
+plotting(0, 8, 27)
+plotting(1, 7, 130)
+plotting(2, 4, 12)
+
+IDM - vel
+
+plotting(0, 10, 126)
+plotting(1, 4, -126)
+plotting(2, 10, -118)

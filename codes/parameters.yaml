@@ -1,0 +1,420 @@
+Models:
+
+  bando:
+    max_vel: 33.33
+    ds: 15
+    beta: 1.5
+    tau: 0.65
+    len_veh: 3
+
+  newell:
+    max_vel: 16
+    sens: 0.69
+    jam_dis: 5.48
+
+  helbing:
+    V1: 6.75
+    V2: 7.91
+    C1: 0.13
+    C2: 1.57
+    kappa: 0.85
+    len_veh: 3
+
+  gfm:
+    jam_dis: 1.38
+    safe_head: 0.74
+    des_vel: 16.98
+    ran_acc: 5.59
+    acc_tim: 2.45
+    brak_tim: 0.77
+    ran_dec: 98.78
+    len_veh: 3
+
+  fvdm:
+    V1: 6.75
+    V2: 7.91
+    C1: 0.13
+    C2: 1.57
+    sens_vel: 0.41
+    sens_relvel: 0.5
+    len_veh: 5
+
+  mfvdm:
+    V1: 6.75
+    V2: 7.91
+    C1: 0.13
+    C2: 1.57
+    sens_vel: 0.41
+    sens_relvel: 0.5
+    len_veh: 5
+
+  idm:
+    max_acc: 1.2
+    des_dec: 1.3
+    len_veh: 5
+    jam_dis_0: 2
+    jam_dis_1: 0
+    des_vel: 33.33
+    safe_head: 1.2
+    acc_exp: 4
+
+  midm:
+    max_acc: 1.2
+    des_dec: 1.3
+    len_veh: 5
+    jam_dis_0: 2
+    jam_dis_1: 0
+    des_vel: 33.33
+    safe_head: 1.2
+    acc_exp: 4
+
+  shamoto:
+    max_acc: 0.73
+    str_int: 3.25
+    jam_dis: 5.25
+    weig_rel: 1.08
+    drag: 0.0517
+
+  tsh:
+    max_acc: 3
+    kappa: 2
+    v_per: 25
+    jam_dis: 5
+    safe_head: 2 
+
+  gipps:
+    delay: 1
+    max_vel: 30
+    max_acc: 2
+    max_dec: 2
+    lead_dec: 2
+    jam_dis: 6
+
+  newell_delay:
+    max_vel: 16
+    sens: 0.69
+    jam_dis: 5.48
+    delay: 1
+
+Max_vel:
+
+  newell: 16
+  bando: 33.33
+  idm: 33.33
+  midm: 33.33
+  helbing: 14.66
+  gfm: 16.98
+  fvdm: 14.66
+  mfvdm: 20
+  shamoto: 14.12
+  tsh: 25
+  gipps: 30
+  newell_delay: 16
+
+Min_head:
+
+  newell: 5.48
+  bando: 3
+  idm: 5
+  midm: 5
+  helbing: 3
+  gfm: 4.38
+  fvdm: 5
+  mfvdm: 5
+  shamoto: 5.25
+  tsh: 5
+  gipps: 6
+  newell_delay: 5.48
+
+Symbols:
+
+  bando:
+    max_vel: $v_m$
+    ds: $\Delta s$
+    beta: $\beta$
+    tau: $\tau_1$
+    len_veh: $l_1$
+
+  newell:
+    max_vel: $V$
+    sens: $\lambda$
+    jam_dis: $d_1$
+
+  gfm:
+    jam_dis: $d_2$
+    safe_head: $T_1$
+    des_vel: $V_3$
+    ran_acc: $R_a$
+    acc_tim: $\tau_a$
+    brak_tim: $\tau_b$
+    ran_dec: $R_b$
+
+  fvdm:
+    V1: $V_1$
+    V2: $V_2$
+    C1: $C_1$
+    C2: $C_2$
+    sens_vel: $\kappa_1$
+    sens_relvel: $\kappa_2$
+    len_veh: $l_2$
+
+  mfvdm:
+    V1: $V_1$
+    V2: $V_2$
+    C1: $C_1$
+    C2: $C_2$
+    sens_vel: $\kappa_1$
+    sens_relvel: $\kappa_2$
+    len_veh: $l_2$
+
+  idm:
+    max_acc: $a_{max 1}$
+    des_dec: $b$
+    len_veh: $l_3$
+    jam_dis_0: $s_0$
+    jam_dis_1: $s_1$
+    des_vel: $V_4$
+    safe_head: $T_2$
+    acc_exp: $\delta$
+
+  midm:
+    max_acc: $a_{max 1}$
+    des_dec: $b$
+    len_veh: $l_3$
+    jam_dis_0: $s_0$
+    jam_dis_1: $s_1$
+    des_vel: $V_4$
+    safe_head: $T_2$
+    acc_exp: $\delta$
+    relvel_weight: $\beta$
+    spacing_weight: $\alpha$
+    m: m
+
+  shamoto:
+    max_acc: $a_{max 2}
+    str_int: $\kappa_3$
+    jam_dis: $d_3$
+    weig_rel: $\kappa_4$
+    drag: $\gamma$
+
+  tsh:
+    max_acc: $a_{max 3}$
+    kappa: $\kappa_4$
+    v_per: $V_5$
+    jam_dis: $d_4$
+    safe_head: $T_3$ 
+
+  gipps:
+    max_acc: $a_{max 4}$
+    max_vel: $V_4$
+    max_dec: $b_2$
+    lead_dec: $\hat{b}$
+    jam_dis: $d_5$
+    delay: $\tau_2$
+
+  newell_delay:
+    max_vel: $V$
+    sens: $\lambda$
+    jam_dis: $d_1$
+    delay: $\Delta$
+
+units:
+
+  bando:
+    max_vel: $m/s$
+    ds: $m$
+    beta: ''
+    tau: $s$
+    len_veh: $m$
+
+  newell:
+    max_vel: $m/s$
+    sens: $s^{-1}$
+    jam_dis: $m$
+
+  gfm:
+    jam_dis: $m$
+    safe_head: $s$
+    des_vel: $m/s$
+    ran_acc: $m$
+    acc_tim: $s$
+    brak_tim: $s$
+    ran_dec: $m$
+
+  fvdm:
+    V1: $m/s$
+    V2: $m/s$
+    C1: $m/s$
+    C2: $m/s$
+    sens_vel: $s$
+    sens_relvel: $s$
+    len_veh: $m$
+
+  mfvdm:
+    V1: $m/s$
+    V2: $m/s$
+    C1: $m/s$
+    C2: $m/s$
+    sens_vel: $s$
+    sens_relvel: $s$
+    len_veh: $m$
+
+  idm:
+    max_acc: $m/s^2$
+    des_dec: $m/s^2$
+    len_veh: $m$
+    jam_dis_0: $m$
+    jam_dis_1: $m$
+    des_vel: $m/s$
+    safe_head: $s$
+    acc_exp: ''
+
+  midm:
+    max_acc: $m/s^2$
+    des_dec: $m/s^2$
+    len_veh: $m$
+    jam_dis_0: $m$
+    jam_dis_1: $m$
+    des_vel: $m/s$
+    safe_head: $s$
+    acc_exp: ''
+    relvel_weight: ''
+    spacing_weight: ''
+    m: ''
+
+  shamoto:
+    max_acc: $m/s^2}
+    str_int: $s$
+    jam_dis: $m$
+    weig_rel: $s$
+    drag: $s^{-1}$
+
+  tsh:
+    max_acc: $m/s^2$
+    kappa: $s^{-1}$
+    v_per: $m/s$
+    jam_dis: $m$
+    safe_head: $m$ 
+
+  newell_delay:
+    max_vel: $m/s$
+    sens: $s^{-1}$
+    jam_dis: $m$
+    delay: $s$
+
+  gipps:
+    delay: $s$
+    max_vel: $m/s$
+    max_acc : $m/s^{2}$
+    max_dec: $m/s^{2}$
+    lead_dec: $m/s^2$
+    jam_dis: $m$
+
+Model_names:
+
+  newell: NNM
+  bando: OVM
+  idm: IDM
+  midm: MIDM
+  gfm: GFM
+  fvdm: FVDM
+  mfvdm: MFVDM
+  shamoto: SEM
+  tsh: TSHM
+  gipps: GM
+  newell_delay: NDM
+
+Model_order:
+  newell: first
+  bando: second
+  idm: second
+  midm: second
+  mfvdm: second
+  gfm: second
+  shamoto: second
+  tsh: second
+  fvdm: second
+  gipps: first
+  newell_delay: first
+
+Parameter_range:
+
+  newell:
+    max_vel: [12, 40]
+    jam_dis: [4.5, 5.5]
+    sens: [0.52, 0.78]
+
+  bando: 
+    max_vel: [12, 40]
+    tau: [1, 5]
+    ds: [12, 18]
+    beta: [1.2, 1.8]
+
+  idm:
+    max_acc: [0.5, 5]
+    des_dec: [0.5, 5]
+    des_vel: [12, 40]
+    safe_head: [0.5, 3]
+    acc_exp: [1, 10]
+    jam_dis_0: [1.5, 2.5]
+
+  midm:
+    max_acc: [0.5, 5]
+    des_dec: [0.5, 5]
+    des_vel: [12, 40]
+    safe_head: [0.5, 3]
+    acc_exp: [1, 10]
+    jam_dis_0: [1.5, 2.5]
+
+  gfm:
+    jam_dis: [1.5, 2.5]
+    safe_head: [0.5, 3]
+    des_vel: [12, 40]
+    ran_acc: [4.472, 5.708]
+    acc_tim: [1, 5]
+    brak_tim: [0.616, 0.924]
+    ran_dec: [74.224, 111.336]
+
+  fvdm:
+    V1: [5, 15]
+    V2: [5, 15]
+    C1: [0.1, 0.156]
+    C2: [1.256, 1.884]
+    sens_vel: [0.2, 1]
+    sens_relvel: [0.2, 1]
+
+  mfvdm:
+    V1: [5, 15]
+    V2: [5, 15]
+    C1: [0.1, 0.156]
+    C2: [1.256, 1.884]
+    sens_vel: [0.2, 1]
+    sens_relvel: [0.2, 1]
+
+  tsh:
+    max_acc: [0.5,5]
+    kappa: [1.6, 2.4]
+    v_per: [12, 40]
+    jam_dis: [4, 6]
+    safe_head: [0.5, 3] 
+
+  gipps:
+    max_acc: [0.5, 2.9]
+    max_vel: [12, 40]
+    max_dec: [0.1, 5]
+    lead_dec: [0.1, 5]
+    jam_dis: [0.1, 4.6]
+    delay: [0.2, 3.8]
+
+  newell_delay:
+    max_vel: [12, 40]
+    jam_dis: [4.5, 5.5]
+    sens: [0.52, 0.78]  
+    delay: [0.2, 3.8]
+
+  shamoto:
+    max_acc: [0.1, 5]
+    str_int: [2.6, 3.9]
+    jam_dis: [4.2, 6.3]
+    weig_rel: [0.86 ,1.3]
+    drag: [0.041, 0.062]
