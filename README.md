@@ -1,5 +1,5 @@
 # CFM-extreme-behaviour
-Nonlinear car following model performance evaluation and comparison 
+Nonlinear car following model performance evaluation and comparison. The published article can be found at https://doi.org/10.1049/itr2.70098
 
 The codes and results of the paper - A comparative study of Non-linear Car Following Models in real-driving scenarios are provided in this repository
 
